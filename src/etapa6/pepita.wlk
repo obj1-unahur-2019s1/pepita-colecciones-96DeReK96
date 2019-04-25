@@ -25,4 +25,8 @@ object pepita {
 			self.volar(8)
 		} 
 	}
+	method puedoVolar(unosKms) {
+		return (self.energia() >= 10 + unosKms) 
+	}
 }
+[[[]]]

@@ -9,8 +9,15 @@ object roque {
 		pupilo = ave
 	} 
 	method pupiloActual() { return pupilo }
+	
+	method agregarPupilo(unAve) { pupilo.add(unAve) }
+	
+	method dejarPupilo(unAve) { pupilo.remove(unAve) }
+	
+	
+	
 
-	method entrenar() { 
+	method entrenar(ave) { 
 		pupilo.volar(10)
 		pupilo.comer(alpiste,30)
 		pupilo.volar(5)
